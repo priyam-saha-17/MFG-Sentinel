@@ -1,0 +1,18 @@
+definition_version: 2
+entities:
+  streamlit_app:
+    type: streamlit
+    main_file: streamlit_app.py
+    query_warehouse: COMPUTE_WH
+    compute_pool: SYSTEM_COMPUTE_POOL_CPU
+    artifacts:
+      - pyproject.toml
+      - streamlit_app.py
+      - .streamlit/config.toml
+    identifier:
+      database: MFG_SENTINEL
+      schema: ANALYTICS
+      name: UNTITLED
+    title: MFG Sentinel
+    run_mode: SpcsOnly
+    execute_as: OWNER
