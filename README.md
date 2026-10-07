@@ -6,6 +6,7 @@ MFG Sentinel is a **Snowflake + Streamlit** predictive-maintenance solution that
 
 The solution uses the **AI4I 2020 Predictive Maintenance Dataset** ([Link](https://archive.ics.uci.edu/dataset/601/ai4i+2020+predictive+maintenance+dataset)) and six Snowflake ML classification models.
 
+Please refer to this YouTube link for Demo: [Link](https://youtu.be/Oums7Yfcevk)
 ---
 
 ## 🚀 Solution Overview
